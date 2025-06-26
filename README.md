@@ -7,3 +7,6 @@ Crie um arquivo HTML com um formulário de inscrição contendo os seguintes cam
 4- Área de atuação, que deve ser um input de radio com as opções: Desenvolvimento, Quality Assurance (QA), Análise de Dados e Infraestrutura
 5- Observações, que deve ser uma textarea
 6- Uma checkbox com o rótulo “Desejo receber novidades e ofertas por email.”
+
+
+Replicar o site da imagem fn.png, contida na pasta ex03-css
