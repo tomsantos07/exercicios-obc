@@ -18,3 +18,6 @@ Obs.: Leia a documentação do MDN sobre a propriedade display para entender com
 
 # Exercicio 04
 Recrie a página da imagem contida na pasta ex04 css utilizando os conhecimentos de CSS.
+
+# Exercicio 05
+Recriar o site da imagem contida na pasta.
