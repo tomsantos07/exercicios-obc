@@ -23,6 +23,7 @@ Recrie a página da imagem contida na pasta ex04 css utilizando os conhecimentos
 Recriar o site da imagem contida na pasta.
 
 # Exercicio 05
+
 Cadastro de Recrutas
 
 Escreva um programa em javascript que permita salvar informações de um recruta. As informações a serem salvas são:
@@ -31,6 +32,8 @@ o sobrenome
 o campo de estudo
 o ano de nascimento
 Depois o programa deve exibir o nome completo do recruta, seu campo de estudo e sua idade (apenas baseada no ano de nascimento).
+
+Exercício 2
 Calculadora de 4 Operações
 Escreve um programa em javascript que permita inserir dois valores numéricos e então calcule o resultado das quatro operações básicas (soma, subtração, multiplicação e divisão).
 Após calcular os resultados o programa deve exibi-los na tela.
