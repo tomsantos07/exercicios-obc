@@ -22,7 +22,7 @@ Recrie a página da imagem contida na pasta ex04 css utilizando os conhecimentos
 # Exercicio 05
 Recriar o site da imagem contida na pasta.
 
-# Exercicio 05
+# Exercicio 06
 
 Cadastro de Recrutas
 
