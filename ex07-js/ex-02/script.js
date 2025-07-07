@@ -23,3 +23,7 @@ if (atackPower > defensePoints && !shield) {
     alert(`${charName2} bloqueou o ataque com seu escudo e não sofreu dano. Pontos de vida: ${lifePoints}`)
 }
 
+alert(
+    `${charName1} possui ${atackPower} pontos de ataque. 
+    ${charName2} possui ${lifePoints} pontos de vida.`
+)
