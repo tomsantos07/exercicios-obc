@@ -1,18 +1,18 @@
-const touristName = prompt("Qual é o seu nome?");
-let cities = "";
-let count = 0;
+const turista = prompt("Qual é o seu nome?");
+let cidades = "";
+let contagem = 0;
 
-let continuing = prompt("Você visitou alguma cidade? Sim/Não");
+let continuar = prompt("Você visitou alguma cidade? Sim/Não");
 
-while (continuing === "Sim") {
-    let city = prompt("Qual é a cidade visitada?");
-    cities += "- " + city + "\n";
-    count++
-    continuing = prompt("Você visitou alguma outra cidade? Sim/Não")
+while (continuar === "Sim") {
+    let cidade = prompt("Qual é a cidade visitada?");
+    cidades += " - " + cidade + "\n";
+    contagem++;
+    continuar = prompt("Você visitou alguma outra cidade? Sim/Não");
 }
 
 alert(
-    "Turista: " + touristName +
-    "\nQuantidade de cidades visitadas: " + continuing +
-    "\nCidades visitadas:\n" + cities
-)
+    "Turista: " + turista +
+    "\nQuantidade de cidades visitadas: " + contagem +
+    "\nCidades visitadas:\n" + cidades
+);
