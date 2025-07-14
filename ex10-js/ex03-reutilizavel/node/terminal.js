@@ -20,11 +20,26 @@ function perguntar() {
     Opção:`, (opcao) => {
         switch (opcao) {
             case '1':
-                
+                //add dinheiro
+                rl.question('Quando deseja adicionar? ', (valorInput) => {
+                    const valor = parseFloat(valorInput);
+                    saldo = adicionarDinheiro(saldo, valor);
+                    console.log(`Novo saldo: R$ ${saldo}`);
+                    perguntar(); // pra voltar ao menu   
+                });
             break;
-
             case '2':
-                
+                //remove dinheiro
+                rl.question('Quanto deseja remover? ', (valorInput) => {
+                    const valor = parseFloat(valorInput);
+                    try {
+                        saldo = removerDinheiro(saldo, valor);
+                        console.log(`Novo saldo: R$ ${saldo}`);
+                    } catch (erro) {
+                        console.log(erro.message); // "Saldo insuficiente"       
+                    } 
+                    perguntar(); //volta ao menu
+                });
             break;
 
             case '3':
