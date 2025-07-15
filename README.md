@@ -91,3 +91,13 @@ Escreva um programa em javascript que comece perguntando pela quantidade inicial
 Exercício Extra:
 Fazer com que essa logica do exercicio 10 2/2, seja reutilizavel pra web e pra nodejs. Voce pode escrever apps para terminal com javascript e rodar usando o node. exemplo: node script.js
 O app pra terminal tem que se comportar da mesma forma: pedir pro usuario inserir alguma coisa e etc.
+
+
+# Exercicio 11
+Robô da Tabuada
+
+Escreva um programa em javascript que seja capaz de calcular a tabuada de um determinado número (de 1 a 20). O programa deve começar pedindo o número a ser usado nos cálculos e então salvar todos os resultados de multiplicações de 1 a 20 usando o número informado dentro de uma variável do tipo string. Depois o programa deve exibir esses resultados e finalizar.
+
+Procurando Palíndromos
+
+Escreva um programa em javascript que seja capaz de identificar se uma palavra é um palíndromo. Um palíndromo é uma palavra que lida de trás para frente possui as mesmas letras na mesma ordem. O programa deve iniciar pedindo que seja informada uma palavra e então deve exibir uma mensagem dizendo se aquela palavra é ou não um palíndromo. Caso não seja um palíndromo, o programa deve mostrar a palavra lida da esquerda para direita e da direita para esquerda.
