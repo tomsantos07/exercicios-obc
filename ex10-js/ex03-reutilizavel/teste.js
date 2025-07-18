@@ -3,7 +3,6 @@
 
 const { adicionarDinheiro, removerDinheiro } = require('./core/operacoes');
 
-console.log();
-console.log(adicionarDinheiro(100, 50));
-console.log(removerDinheiro(100, 30));
-console.log(removerDinheiro(10, 30));
+console.assert(adicionarDinheiro(100, 50) === 150, "Erro ao adicionar dinheiro.");
+console.assert(removerDinheiro(100, 30) === 130, "Erro ao adicionar dinheiro.");
+console.log(removerDinheiro(10, 30) === Error, "Erro na aplicação");

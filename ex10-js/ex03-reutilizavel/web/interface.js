@@ -1,4 +1,5 @@
-import { validarNumero, adicionarDinheiro, removerDinheiro } from '../core/operacoes.js'
+import '../core/operacoes.js';
+const { validarNumero, adicionarDinheiro, removerDinheiro } = window.operacoes;
 
 let saldo = 0;
 

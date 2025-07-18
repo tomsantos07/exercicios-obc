@@ -1,7 +1,7 @@
 // aqui estão as lógicas de negócios
 
 //funções compartilhadas
-function validarNumero() {
+function validarNumero(input) {
     const numero = parseFloat(input);
     if (isNaN(numero)) {
         console.log('Valor inválido. Digite apenas números.');
