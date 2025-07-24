@@ -111,3 +111,19 @@ Escreva um programa em javascript para simular uma fila de espera em um consult�
 Pilha de Cartas
 
 Escreva um programa em javascript para simular um baralho de cartas. O programa deve iniciar mostrando na tela um menu interativo contendo a quantidade de cartas que estão atualmente no baralho e as opções de “Adicionar uma carta”, “Puxar uma carta” e “Sair”. Ao escolher “Adicionar uma carta”, o programa deve perguntar o nome da carta e adicioná-la no topo do baralho. Ao escolher “Puxar uma carta”, o programa deve retirar a carta do topo do baralho e mostrar na tela o nome da carta puxada. O programa só deve ser encerrado ao escolher a opção de “Sair”, caso contrário deve voltar ao menu.
+
+
+# Exercicio 13
+
+Cadastro de Imóveis
+
+Escreva um programa em javascript que funcione como um cadastro de imóveis e atenda aos seguintes requisitos:
+Deve ter um menu interativo que sempre é exibido até que o usuário escolha sair.
+O menu interativo deve mostrar no topo a quantidade de imóveis cadastrados.
+O menu deve ter a opção de salvar um imóvel.
+Para salvar um novo imóvel o programa deve pedir as seguintes informações:Nome do proprietário.Quantidade de quartos.Quantidade de banheiros.Se possui garagem.
+Nome do proprietário.
+Quantidade de quartos.
+Quantidade de banheiros.
+Se possui garagem.
+O menu também deve ter a opção de mostrar todos os imóveis salvos.
