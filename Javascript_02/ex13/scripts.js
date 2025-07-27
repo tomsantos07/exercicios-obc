@@ -10,11 +10,12 @@ do {
         1. Cadastrar Novo Imóvel
         2. Consultar Imóveis Cadastrados
         3. Sair
-        `)
+        `);
 
-        switch (key) {
+        const imovel = {};
+        
+        switch (opcao) {
             case "1":
-                const imovel = {};
 
                 imovel.proprietario = prompt("Digite o nome do proprietário:");
                 imovel.quarto = prompt("Quantos quartos possui?");
@@ -37,18 +38,23 @@ do {
                 break;
 
             case "2":
-                let exibeImoveis = "";
                 for (let i = 0; i < imoveis.length; i++) {
-                    exibeImoveis += imoveis[i]
-                    alert(exibeImoveis);
+                    alert(`
+                        Imóvel: ${i +1}
+                        Proprietário: ${imovel.proprietario}
+                        Quartos: ${imovel.quarto}
+                        Banheiros: ${imovel.banheiro}
+                        Garagem: ${imovel.garagem}
+                        `);
                 }
                 break;
             
             case "3":
                 alert("Saindo...");
-                return
+                break;
             default:
                 alert("Opção inválida.");
                 break;
         }
+
 } while (opcao !== "3");
