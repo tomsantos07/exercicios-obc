@@ -167,3 +167,76 @@ A opção de inscrever um candidato em uma vaga de pedir o nome do candidato, o 
 A opção de excluir uma vaga deve pedir o índice da vaga, mostrar suas informações e pedir que o usuário confirme a exclusão da vaga antes de realmente excluí-la.
 
 Este é o exercício de revisão do módulo, então aproveite para utilizar todos os recursos vistos até agora sempre que possível, como os objetos, arrays e funções.
+
+
+# Exercício 16 Extra
+
+ - Requisitos Gerais
+✔️ Menu interativo com 7 opções (sistema em loop até escolher "Sair")
+✔️ Array de objetos para armazenar os livros
+✔️ Cada livro possui:
+
+Título (string)
+Autor (string)
+Ano de publicação (número)
+Status (inicia como "Disponível")
+Emprestado para (string vazia inicialmente)
+
+Funcionalidades Obrigatórias:
+
+1- Listar todos os livros
+- Formato: [Índice] Título (Autor) - Status
+- Ex: [0] Dom Casmurro (Machado de Assis) - Disponível
+- Usar map() ou reduce() para formatar a lista
+
+2- Adicionar novo livro
+- Solicitar:
+    - Título
+    - Autor
+    - Ano de publicação
+
+- Confirmar dados antes de salvar
+- Status inicia como "Disponível"
+- emprestadoPara inicia como string vazia
+
+3- Visualizar livro detalhado
+- Solicitar índice do livro
+- Exibir todas as informações:
+    - Título, autor, ano
+    - Status (Disponível ou Emprestado)
+    - Se emprestado: "Emprestado para: [Nome]"
+
+4- Emprestar livro
+- Solicitar:
+    - Índice do livro
+    - Nome da pessoa
+- Validar: Livro deve estar disponível
+- Confirmar operação mostrando dados do livro
+- Atualizar:
+    - Status → "Emprestado"
+    - emprestadoPara → nome da pessoa
+
+5- Devolver livro
+- Solicitar índice do livro
+- Validar: Livro deve estar emprestado
+- Atualizar:
+    - Status → "Disponível"
+    - emprestadoPara → string vazia
+
+6- Excluir livro
+- Solicitar índice do livro
+- Mostrar dados completos do livro
+- Confirmar exclusão antes de remover
+
+7- Sair do sistema
+- Encerrar o loop e mostrar mensagem de despedida
+
+Regras Técnicas
+
+🛠️ Usar métodos de array (map, filter, reduce) onde for apropriado
+🛠️ Implementar validações para:
+    - Índices inválidos
+    - Tentativa de emprestar livro já emprestado
+    - Tentativa de devolver livro disponível
+🛠️ Formatar mensagens para serem claras e organizadas
+🛠️ Manter o código modularizado com funções específicas
